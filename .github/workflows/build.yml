@@ -8,21 +8,10 @@ jobs:
     name: Build Test
     strategy:
       matrix:
-        board: [proton_c, nice_nano, bluemicro840_v1, nrfmicro_13]
+        board: [nice_nano]
         shield:
-          - corne_left
-          - corne_right
-          - kyria_left
-          - kyria_right
-          - lily58_left
-          - lily58_right
           - helix_left
           - helix_right
-          - romac
-          - settings_reset
-        include:
-          - board: proton_c
-            shield: clueboard_california
     steps:
       # To use this repository's private action,
       # you must check out the repository
