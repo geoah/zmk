@@ -23,6 +23,6 @@
 };
 
 &bt_unpair_combo {
-	key-positions = <43 45>;
+	key-positions = <10 11>;
 };
 
